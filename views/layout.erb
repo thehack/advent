@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Advent - The World Awaits it's Saviour</title>
+	<script src="/javascript/jquery.js" type="text/javascript"></script>
+	<script type="text/javascript" src="/javascript/tooltipster.js"></script>	
+	<link rel="stylesheet" href="/css/pure.css">
+	<link rel="stylesheet" href="/css/layout.css">
+	<link rel="stylesheet" type="text/css" href="/css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="/css/tooltipster.css">
+	<link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>	
+	<script type="text/javascript">
+        $(document).ready(function() {
+
+        	// fixes an ugly issue where image drops down on small devices
+        	var alignLink = function() {
+        		if($( window ).width() < 768) {
+        			$('.right:first').css('position', 'absolute')
+	        		.css('top', '0px')
+	        		.css('right', '0px')
+	        		.css('width', '100px')
+        		}
+        		else {
+        			$('.right:first').css('position', 'relative')
+        			.css('width', '')
+
+        		}
+        	};
+
+        	// text-align: center won't work on the circles
+        	var alignCircles = function() {
+	        	var circles = $('.circle')
+	        	var offset = $('.box').width()/2 -25 ;
+	        	for (var i = 0; i < circles.length; i++) {
+	        		$(circles[i]).css('marginLeft', offset)
+	        	};
+        	};
+
+        	// calling my functions
+            $('.tooltip').tooltipster();
+            alignCircles();
+         	alignLink();
+
+         	//keeping things right on resize
+	        $(window).resize(function() {
+	        	alignCircles();
+	        	alignLink();
+        	});
+        });
+
+    </script>
+
+</head>
+<body>
+<div class="pure-g-r grey">
+	<div class="pure-u-1-5">
+	</div>
+	<div class="pure-u-2-5">
+		<a href='/'><div class="heading">Advent</div></a>
+	</div>
+
+	<div class="pure-u-1-5 right">
+		<% if logged_in? %>
+		<a href="/logout" class="tooltip" title="Log Out">
+			<%= img_tag_for_user(@current_user.id) %>
+		</a>
+		<% else %>
+		<a class="pure-button login" href="/login">Login</a>
+		<% end %>
+	</div>
+		<div class="pure-u-1-5">
+		</div>
+</div>
+<%= yield %>
+</body>
+</html>

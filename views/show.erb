@@ -1,0 +1,36 @@
+<style type="text/css">
+	.main {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.subhead{
+		margin-top: -18px;
+		font-size:20px;
+		margin-bottom: 4px;
+		color: #99aa9e;
+		font-family: 'CodeProLightDemoRegular';
+	}
+	.top {
+		min-height:200px;
+		background-image: url('<%= @day.image_url%>');
+		background-size:cover;
+		background-position: center center;		
+	}
+</style>
+<div class="pure-g-r">
+	<div class='pure-u-1 one top'></div>
+	<div class='pure-u-1-5'>
+	</div>
+	<div class='pure-u-3-5 main' >
+	<h1><img src="http://graph.facebook.com/<%= @day.user.id %>/picture" class="tooltip" title="author: <%= @day.user.name %>"  alt=""> <%= @day.title %></h1>
+	<p class="subhead"><%= @day.publish_on.strftime("%A, #{@day.publish_on.day.to_s.ordinalize} %B")%></p>
+	<%= @body %>
+	<br>
+	<%if admin?%>
+		<a href="/day/<%= @day.id %>/edit">Edit this Post</a>	
+	<%end%>
+	</div>
+	<div class='pure-u-1-5'>
+	</div>
+</div>
+

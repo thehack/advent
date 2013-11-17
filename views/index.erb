@@ -1,0 +1,39 @@
+<style type="text/css">
+<%for day in @days %>
+	.<%= day.id.to_i.to_english %> {
+		background-image: url('<%= day.image_url%>');
+		background-size:cover;
+		background-position: center center;
+	}
+<% end %>
+</style>
+<div class="pure-g-r">
+	<div class='pure-u-1-5'>
+	</div>
+	<div class='pure-u-3-5'>
+		<div class="pure-g-r">
+			<% (1..24).to_a.each do |day|%>
+			
+			<div class='pure-u-1-5 day'>
+			<a href="/day/<%= day %>/show">
+					<div class="box <%= day.to_english %>">
+						<div class="circle">
+							<div><%= day %></div>
+						</div>
+						<%if admin?%>
+						<br>
+						<a class="edit" href="/day/<%= day %>/edit">edit</a>	
+						<%end%>
+ 					</div>
+ 				
+			</div>
+			</a>
+			<% end %>
+			<div class='pure-u-1-5'>
+				
+			</div>
+		</div>
+	</div>
+	<div class='pure-u-1-5'>		
+	</div>
+</div>

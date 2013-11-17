@@ -1,0 +1,36 @@
+<style>
+	.preview div, .preview h3 {
+		margin-right:20px;
+		margin-left:10px;
+	}
+	.redBorder {
+		border: 1px solid red;
+	}
+	form {
+		margin-right:10px;
+		margin-left:20px;
+	}
+</style>
+<div class="pure-g-r">
+
+	<div class='pure-u-1-2'>
+		<form class="pure-form pure-g-r" action="/day/<%= @day.id%>/update" method="post">
+
+			<input name="title" class="pure-input-1" type="text" value="<%= @day.title%>">
+			<input name="image_url" class="pure-input-1" type="text" placeholder="Enter your image url" value="<%= @day.image_url %>">
+		<br>
+
+		<textarea name="body" class="pure-input-1" id='bodyText'><%= @day.body %>
+		</textarea>
+
+		<br>
+		<button class="pure-button pure-input-1 pure-button-primary green" type='submit'>Save</button>
+		</form>
+	</div>
+	<div class='pure-u-1-2 preview'>
+		<div class="redBorder">
+		<h3><%= @day.title %></h3>
+		<div><%= @body %></div>	
+		</div>
+	</div>
+</div>

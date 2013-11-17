@@ -1,0 +1,82 @@
+	body {background-color: #f2f2f2;
+		background-image: url('/images/path3253.png');
+	}
+	a {text-decoration: none;}
+	h1 {
+		font-family: 'CodeProDemoRegular';
+
+	}
+	#bodyText {
+		min-height: 568px;
+	}
+	p {
+		color:#29272b;
+		font-family: 'Cabin', sans-serif;
+		font-size: 18px;
+		line-height: 28px;
+	}
+	.green {
+		background-color:#006400;
+	}
+	.edit {
+		background-color: white;
+		color: red;
+	}
+	.right {
+		text-align: right;
+	}
+	.right img {
+		margin-right: 10px;
+		margin-bottom: -4px;
+	}
+	.top {
+		vertical-align: top;
+	}
+
+	.grey {
+		background-color:#006400;
+		border-bottom: 1px solid black;
+		min-height: 50px;
+	}
+	.grey .login {
+		margin-top: 10px;
+		margin-right: 10px;
+	}
+
+	.heading {
+		color: #f2f2f2;
+
+	}
+	.box {
+		margin: 10px;
+		border: 1px solid black;
+		min-height: 113px;
+		max-height: 100px;
+		text-align: center;
+
+	}
+	.heading {
+		font-family: 'CodeProLightDemoRegular';
+		font-size: 28px;
+		margin-top: 12px;
+		margin-left: 12px;
+		text-align: left;
+	}
+	.circle {
+		min-height: 50px;
+		min-width: 50px;
+		width: 50px;
+		border-radius: 25px;
+		-moz-border-radius: 25px;
+		-webkit-border-radius: 25px;
+		border: 1px solid black;
+		font-size: 28px;
+		background-color: rgb(255,255,240);
+		margin-top: 30px;
+		text-align: center;
+		margin-left:50px;
+	}
+	 .circle div  {
+		margin-top: 10px;
+		font-family: 'crashnumberingserifregular', Arial;
+	}

@@ -1,0 +1,463 @@
+2013/11/15-12:22:55.834030 7fff74af5310 Recovering log #136
+2013/11/15-12:22:55.839172 7fff74af5310 Delete type=0 #136
+2013/11/15-12:22:55.839284 7fff74af5310 Delete type=3 #135
+2013/11/15-12:22:55.839481 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:22:55.920058 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:22:55.920242 10e881000 Delete type=2 #139
+2013/11/15-12:22:55.920959 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:22:55.921004 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:22:56.922011 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:22:56.922814 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:22:56.923000 10e881000 Delete type=2 #140
+2013/11/15-12:22:56.979601 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:22:56.979660 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:22:58.980658 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:22:58.981501 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:22:58.981687 10e881000 Delete type=2 #141
+2013/11/15-12:22:59.038998 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:22:59.039084 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:23:03.039120 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:23:03.039922 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:23:03.040101 10e881000 Delete type=2 #142
+2013/11/15-12:23:03.090938 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:23:03.091000 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:23:11.091860 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:23:11.092671 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:23:11.092802 10e881000 Delete type=2 #143
+2013/11/15-12:23:11.150242 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:23:11.150309 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:23:19.150401 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:23:19.151188 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:23:19.151322 10e881000 Delete type=2 #144
+2013/11/15-12:23:19.198378 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:23:19.198425 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:23:27.199298 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:23:27.200211 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:23:27.200391 10e881000 Delete type=2 #145
+2013/11/15-12:23:27.258356 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:23:27.258438 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:23:35.259298 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:23:35.260924 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:23:35.261056 10e881000 Delete type=2 #146
+2013/11/15-12:23:35.316131 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:23:35.316197 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:23:43.317068 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:23:43.317907 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:23:43.318094 10e881000 Delete type=2 #147
+2013/11/15-12:23:43.366230 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:23:43.366279 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:23:51.367192 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:23:51.368029 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:23:51.368226 10e881000 Delete type=2 #148
+2013/11/15-12:23:51.425696 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:23:51.425739 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:23:59.426594 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:23:59.427398 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:23:59.427584 10e881000 Delete type=2 #149
+2013/11/15-12:23:59.484054 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:23:59.484122 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:24:07.484986 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:24:07.486572 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:24:07.486702 10e881000 Delete type=2 #150
+2013/11/15-12:24:07.542689 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:24:07.542752 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:24:15.542711 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:24:15.543531 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:24:15.543679 10e881000 Delete type=2 #151
+2013/11/15-12:24:15.592118 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:24:15.592182 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:24:23.593072 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:24:23.593869 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:24:23.594046 10e881000 Delete type=2 #152
+2013/11/15-12:24:23.641318 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:24:23.641379 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:24:31.642267 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:24:31.643069 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:24:31.643245 10e881000 Delete type=2 #153
+2013/11/15-12:24:31.690471 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:24:31.690523 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:24:39.691379 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:24:39.692197 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:24:39.692379 10e881000 Delete type=2 #154
+2013/11/15-12:24:39.739046 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:24:39.739110 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:24:47.739980 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:24:47.740792 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:24:47.740973 10e881000 Delete type=2 #155
+2013/11/15-12:24:47.787560 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:24:47.787620 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:24:55.788505 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:24:55.789306 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:24:55.789485 10e881000 Delete type=2 #156
+2013/11/15-12:24:55.836005 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:24:55.836068 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:25:03.836939 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:25:03.837732 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:25:03.837915 10e881000 Delete type=2 #157
+2013/11/15-12:25:03.885340 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:25:03.885403 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:25:11.886301 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:25:11.887153 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:25:11.887335 10e881000 Delete type=2 #158
+2013/11/15-12:25:11.934206 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:25:11.934269 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:25:19.935152 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:25:19.935962 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:25:19.936143 10e881000 Delete type=2 #159
+2013/11/15-12:25:19.992551 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:25:19.992654 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:25:27.993504 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:25:27.994308 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:25:27.994488 10e881000 Delete type=2 #160
+2013/11/15-12:25:28.041926 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:25:28.041990 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:25:36.042862 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:25:36.044540 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:25:36.044677 10e881000 Delete type=2 #161
+2013/11/15-12:25:36.100512 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:25:36.100574 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:25:44.101355 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:25:44.102007 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:25:44.102118 10e881000 Delete type=2 #162
+2013/11/15-12:25:44.150733 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:25:44.150796 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:25:52.151664 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:25:52.152493 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:25:52.152676 10e881000 Delete type=2 #163
+2013/11/15-12:25:52.200203 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:25:52.200269 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:26:00.201137 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:26:00.201915 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:26:00.202098 10e881000 Delete type=2 #164
+2013/11/15-12:26:00.258294 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:26:00.258355 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:26:08.259235 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:26:08.260837 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:26:08.260969 10e881000 Delete type=2 #165
+2013/11/15-12:26:08.316982 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:26:08.317027 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:26:16.317885 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:26:16.318687 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:26:16.318869 10e881000 Delete type=2 #166
+2013/11/15-12:26:16.367157 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:26:16.367221 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:26:24.368092 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:26:24.368882 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:26:24.369064 10e881000 Delete type=2 #167
+2013/11/15-12:26:24.415658 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:26:24.415754 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:26:32.416645 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:26:32.417424 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:26:32.417601 10e881000 Delete type=2 #168
+2013/11/15-12:26:32.464057 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:26:32.464119 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:26:40.464991 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:26:40.466696 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:26:40.466832 10e881000 Delete type=2 #169
+2013/11/15-12:26:40.518767 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:26:40.518828 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:26:48.519700 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:26:48.520492 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:26:48.520676 10e881000 Delete type=2 #170
+2013/11/15-12:26:48.573091 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:26:48.573139 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:26:56.573908 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:26:56.574551 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:26:56.574663 10e881000 Delete type=2 #171
+2013/11/15-12:26:56.622382 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:26:56.622442 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:27:04.623320 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:27:04.624110 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:27:04.624288 10e881000 Delete type=2 #172
+2013/11/15-12:27:04.680709 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:27:04.680774 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:27:12.681627 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:27:12.682330 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:27:12.682457 10e881000 Delete type=2 #173
+2013/11/15-12:27:12.730141 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:27:12.730207 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:27:20.731081 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:27:20.731883 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:27:20.732067 10e881000 Delete type=2 #174
+2013/11/15-12:27:20.778374 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:27:20.778435 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:27:28.779218 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:27:28.779885 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:27:28.780013 10e881000 Delete type=2 #175
+2013/11/15-12:27:28.828004 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:27:28.828070 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:27:36.828582 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:27:36.830214 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:27:36.830348 10e881000 Delete type=2 #176
+2013/11/15-12:27:36.886271 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:27:36.886335 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:27:44.887204 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:27:44.888022 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:27:44.888206 10e881000 Delete type=2 #177
+2013/11/15-12:27:44.935661 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:27:44.935727 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:27:52.936593 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:27:52.937377 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:27:52.937560 10e881000 Delete type=2 #178
+2013/11/15-12:27:52.985696 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:27:52.985758 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:28:00.986616 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:28:00.987502 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:28:00.987701 10e881000 Delete type=2 #179
+2013/11/15-12:28:01.045464 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:28:01.045527 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:28:09.046405 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:28:09.047215 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:28:09.047395 10e881000 Delete type=2 #180
+2013/11/15-12:28:09.103025 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:28:09.103085 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:28:17.103948 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:28:17.104737 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:28:17.104920 10e881000 Delete type=2 #181
+2013/11/15-12:28:17.151370 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:28:17.151428 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:28:25.152284 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:28:25.153076 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:28:25.153261 10e881000 Delete type=2 #182
+2013/11/15-12:28:25.200745 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:28:25.200806 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:28:33.201672 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:28:33.202476 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:28:33.202662 10e881000 Delete type=2 #183
+2013/11/15-12:28:33.249060 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:28:33.249264 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:28:41.250065 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:28:41.250865 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:28:41.251041 10e881000 Delete type=2 #184
+2013/11/15-12:28:41.297575 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:28:41.297641 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:28:49.298513 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:28:49.299302 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:28:49.299487 10e881000 Delete type=2 #185
+2013/11/15-12:28:49.346825 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:28:49.346887 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:28:57.347194 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:28:57.347826 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:28:57.347933 10e881000 Delete type=2 #186
+2013/11/15-12:28:57.348466 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:28:57.348486 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:29:05.349378 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:29:05.350180 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:29:05.350366 10e881000 Delete type=2 #187
+2013/11/15-12:29:05.400709 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:29:05.400760 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:29:13.401620 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:29:13.403251 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:29:13.403382 10e881000 Delete type=2 #188
+2013/11/15-12:29:13.459520 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:29:13.459585 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:29:21.460464 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:29:21.461281 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:29:21.461415 10e881000 Delete type=2 #189
+2013/11/15-12:29:21.508785 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:29:21.508837 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:29:29.509688 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:29:29.510474 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:29:29.510659 10e881000 Delete type=2 #190
+2013/11/15-12:29:29.558142 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:29:29.558206 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:29:37.559089 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:29:37.560744 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:29:37.560872 10e881000 Delete type=2 #191
+2013/11/15-12:29:37.616433 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:29:37.616496 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:29:45.617339 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:29:45.618121 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:29:45.618306 10e881000 Delete type=2 #192
+2013/11/15-12:29:45.666766 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:29:45.666831 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:29:53.667569 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:29:53.668234 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:29:53.668358 10e881000 Delete type=2 #193
+2013/11/15-12:29:53.714718 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:29:53.714765 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:30:01.715634 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:30:01.716433 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:30:01.716616 10e881000 Delete type=2 #194
+2013/11/15-12:30:01.764082 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:30:01.764146 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:30:09.765014 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:30:09.766818 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:30:09.766958 10e881000 Delete type=2 #195
+2013/11/15-12:30:09.820714 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:30:09.820779 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:30:17.821646 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:30:17.822421 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:30:17.822603 10e881000 Delete type=2 #196
+2013/11/15-12:30:17.872244 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:30:17.872308 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:30:25.873180 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:30:25.873980 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:30:25.874162 10e881000 Delete type=2 #197
+2013/11/15-12:30:25.920671 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:30:25.920736 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:30:33.921643 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:30:33.922474 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:30:33.922657 10e881000 Delete type=2 #198
+2013/11/15-12:30:33.970353 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:30:33.970413 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:30:41.971338 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:30:41.972230 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:30:41.972412 10e881000 Delete type=2 #199
+2013/11/15-12:30:42.028708 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:30:42.028776 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:30:50.029647 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:30:50.030456 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:30:50.030636 10e881000 Delete type=2 #200
+2013/11/15-12:30:50.077154 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:30:50.077211 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:30:58.078065 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:30:58.078886 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:30:58.079068 10e881000 Delete type=2 #201
+2013/11/15-12:30:58.126529 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:30:58.126590 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:31:06.127460 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:31:06.128274 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:31:06.128458 10e881000 Delete type=2 #202
+2013/11/15-12:31:06.188297 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:31:06.188359 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:31:14.189230 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:31:14.190977 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:31:14.191119 10e881000 Delete type=2 #203
+2013/11/15-12:31:14.243620 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:31:14.243671 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:31:22.244462 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:31:22.245137 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:31:22.245265 10e881000 Delete type=2 #204
+2013/11/15-12:31:22.292519 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:31:22.292579 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:31:30.293442 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:31:30.294259 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:31:30.294441 10e881000 Delete type=2 #205
+2013/11/15-12:31:30.344017 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:31:30.344082 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:31:38.344954 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:31:38.346656 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:31:38.346777 10e881000 Delete type=2 #206
+2013/11/15-12:31:38.400291 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:31:38.400354 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:31:46.400506 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:31:46.401170 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:31:46.401319 10e881000 Delete type=2 #207
+2013/11/15-12:31:46.452783 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:31:46.452846 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:31:54.453625 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:31:54.454439 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:31:54.454520 10e881000 Delete type=2 #208
+2013/11/15-12:31:54.501125 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:31:54.501155 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:32:02.501903 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:32:02.502388 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:32:02.502468 10e881000 Delete type=2 #209
+2013/11/15-12:32:02.549796 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:32:02.549824 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:32:10.550569 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:32:10.551629 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:32:10.551713 10e881000 Delete type=2 #210
+2013/11/15-12:32:10.597299 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:32:10.597327 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:32:18.597340 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:32:18.597860 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:32:18.597944 10e881000 Delete type=2 #211
+2013/11/15-12:32:18.647207 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:32:18.647235 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:32:26.648172 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:32:26.648714 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:32:26.648796 10e881000 Delete type=2 #212
+2013/11/15-12:32:26.694299 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:32:26.694327 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:32:34.695033 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:32:34.695506 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:32:34.695586 10e881000 Delete type=2 #213
+2013/11/15-12:32:34.755169 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:32:34.755201 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:32:42.755785 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:32:42.756275 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:32:42.756356 10e881000 Delete type=2 #214
+2013/11/15-12:32:42.804356 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:32:42.804381 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:32:50.805126 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:32:50.805617 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:32:50.805700 10e881000 Delete type=2 #215
+2013/11/15-12:32:50.852951 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:32:50.852990 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:32:58.853751 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:32:58.854238 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:32:58.854317 10e881000 Delete type=2 #216
+2013/11/15-12:32:58.900710 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:32:58.900738 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:33:06.901480 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:33:06.901968 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:33:06.902048 10e881000 Delete type=2 #217
+2013/11/15-12:33:06.950062 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:33:06.950095 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:33:14.950836 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:33:14.951658 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:33:14.951741 10e881000 Delete type=2 #218
+2013/11/15-12:33:14.995971 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:33:14.996012 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:33:22.996688 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:33:22.997176 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:33:22.997256 10e881000 Delete type=2 #219
+2013/11/15-12:33:23.047969 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:33:23.047997 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:33:31.048742 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:33:31.049232 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:33:31.049314 10e881000 Delete type=2 #220
+2013/11/15-12:33:31.095687 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:33:31.095713 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:33:39.096181 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:33:39.097299 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:33:39.097384 10e881000 Delete type=2 #221
+2013/11/15-12:33:39.144134 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:33:39.144159 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:33:47.145060 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:33:47.145556 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:33:47.145637 10e881000 Delete type=2 #222
+2013/11/15-12:33:47.193414 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:33:47.193447 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:33:55.194190 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:33:55.194670 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:33:55.194750 10e881000 Delete type=2 #223
+2013/11/15-12:33:55.242700 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:33:55.242733 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:34:03.243478 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:34:03.243967 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:34:03.244047 10e881000 Delete type=2 #224
+2013/11/15-12:34:03.290570 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:34:03.290600 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:34:11.290732 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:34:11.291877 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:34:11.291980 10e881000 Delete type=2 #225
+2013/11/15-12:34:11.335898 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:34:11.335924 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:34:19.336958 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:34:19.337602 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:34:19.338006 10e881000 Delete type=2 #226
+2013/11/15-12:34:19.389182 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:34:19.389220 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:34:27.389251 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:34:27.390110 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:34:27.390258 10e881000 Delete type=2 #227
+2013/11/15-12:34:27.437340 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:34:27.437369 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:34:35.438115 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:34:35.438610 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:34:35.438689 10e881000 Delete type=2 #228
+2013/11/15-12:34:35.486265 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:34:35.486297 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:34:43.486359 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:34:43.487537 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:34:43.487622 10e881000 Delete type=2 #229
+2013/11/15-12:34:43.533904 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:34:43.533931 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:34:51.534246 10e881000 Compacting 5@0 + 0@1 files
+2013/11/15-12:34:51.534761 10e881000 compacted to: files[ 5 0 0 0 0 0 0 ]
+2013/11/15-12:34:51.534843 10e881000 Delete type=2 #230
+2013/11/15-12:34:51.583250 10e881000 Compaction error: Corruption: corrupted compressed block contents
+2013/11/15-12:34:51.583279 10e881000 Waiting after background compaction error: Corruption: corrupted compressed block contents

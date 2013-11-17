@@ -1,2 +1,3 @@
-require './lib/simple-ruby-facebook-example'
-run SimpleRubyFacebookExample
+require './main'
+set :environment, :development
+run Sinatra::Application
