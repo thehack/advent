@@ -14,7 +14,7 @@
 		min-height:200px;
 		background-image: url('<%= @day.image_url%>');
 		background-size:cover;
-		background-position: center center;		
+		background-position: center center;
 	}
 </style>
 <div class="pure-g-r">
@@ -23,12 +23,11 @@
 	</div>
 	<div class='pure-u-3-5 main' >
 	<h1><img src="http://graph.facebook.com/<%= @day.user.id %>/picture" class="tooltip" title="author: <%= @day.user.name %>"  alt=""> <%= @day.title %></h1>
-	<p class="subhead"><%= @day.publish_on.strftime("%A, #{@day.publish_on.day.to_s.ordinalize} %B")%></p>
+	<p class="subhead"><%= @day.publish_on.strftime("%A, #{@day.publish_on.day.to_s.ordinalize} %B")%><%if admin?%>&nbsp;&nbsp;
+		<span class="color:red;"><a href="/day/<%= @day.id %>/edit">Edit this Post</a></span>
+	<%end%></p>
 	<%= @body %>
 	<br>
-	<%if admin?%>
-		<a href="/day/<%= @day.id %>/edit">Edit this Post</a>	
-	<%end%>
 	</div>
 	<div class='pure-u-1-5'>
 	</div>

@@ -6,6 +6,10 @@
 		font-family: 'CodeProDemoRegular';
 
 	}
+
+	a{color:#1c1c1c;}
+	a:visited {color:#606060;}
+
 	#bodyText {
 		min-height: 568px;
 	}

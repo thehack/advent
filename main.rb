@@ -87,7 +87,7 @@ before do
 
 def admin?
   if logged_in?
-    admins = ['timinman', 'troy.rhodes.79', 'andy.gamble.7', 'gregg.stewart.88', 'emailnoelle', 'adammontgomery1', 'peterfinch1987']
+    admins = ADMINS
     if admins.include? @current_user['username']
       return true
     else

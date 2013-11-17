@@ -17,7 +17,7 @@
 		<form class="pure-form pure-g-r" action="/day/<%= @day.id%>/update" method="post">
 
 			<input name="title" class="pure-input-1" type="text" value="<%= @day.title%>">
-			<input name="image_url" class="pure-input-1" type="text" placeholder="Enter your image url" value="<%= @day.image_url %>">
+			<input name="image_url" class="pure-input-1" type="text" placeholder="Enter your image url"<% if @day.image_url %>value="<%= @day.image_url%> "<% end%>>
 		<br>
 
 		<textarea name="body" class="pure-input-1" id='bodyText'><%= @day.body %>
