@@ -24,7 +24,6 @@ class Comment
   property :body, String
   property :created_on, DateTime
   property :updated_at, DateTime
-  property :email, String
   belongs_to :user
   belongs_to :day, :required => false
 end
@@ -44,15 +43,10 @@ end
 
 DataMapper.auto_upgrade!
 
-#db = LevelDB::DB.new "./db/development"
-#db = LevelDB::DB.new "./db/test3"
-
-# register your app at facebook to get those infos
-# your app id
 APP_ID     = 524306497656258
 # your app secret
 
-use Rack::Session::Cookie, secret: RACK_SECRET
+use Rack::Session::Cookie, :secret => RACK_SECRET
 
 before do
 
@@ -114,10 +108,9 @@ get '/' do
 end
 
 get '/day/:number/show' do
-
-
   @day = Day.get(params['number'])
   @body = Kramdown::Document.new(@day.body).to_html
+  @comments = Comment.all(:day => @day)
   erb :show
 end
 
@@ -143,11 +136,26 @@ post '/day/:number/update' do
   redirect "/day/#{day.id}/show"
 end
 
-post 'comment/:num/create' do
-  day = params['num']
-  comment = day.comments.create()
+post '/comment/:num/create' do
+  if logged_in?
+    day = Day.get(params['num'])
+    comment = day.comments.create(:user => @current_user, :body => params[:body])
+    redirect '/'
+  else
+    "you have to log in to leave comments"
+  end
 end
 
+post '/comment/:id/destroy' do
+  if admin?
+    comment = Comment.get(params[:id])
+    page = comment.page
+    comment.destroy
+    redirect '/day/' + page.id + '/show'
+  else
+    "You have to be an admin to delete comments"
+  end
+end
 get '/login' do
   # generate a new oauth object with your app data and your callback url
   session['oauth'] = Koala::Facebook::OAuth.new(APP_ID, APP_SECRET, "#{request.base_url}/callback")
