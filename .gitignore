@@ -1,2 +1,3 @@
 .bundle/
 secrets.rb
+development.sqlite3

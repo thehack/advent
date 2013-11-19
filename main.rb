@@ -44,6 +44,7 @@ end
 DataMapper.auto_upgrade!
 
 APP_ID     = 524306497656258
+
 # your app secret
 
 use Rack::Session::Cookie, :secret => RACK_SECRET
