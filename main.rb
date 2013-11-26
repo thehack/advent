@@ -3,8 +3,10 @@ require 'koala'
 require 'kramdown'
 require 'data_mapper'
 require './secrets'
+require 'fileutils'
+require 'base64'
 DataMapper.setup(:default, "sqlite3://#{Dir.pwd}/db/development.sqlite3")
-
+DataMapper::Model.raise_on_save_failure = true
 class User
   include DataMapper::Resource
   property :id, Integer, :key => true
@@ -15,7 +17,6 @@ class User
   property :updated_at, DateTime
   has n, :comments
   has n, :days
-
 end
 
 class Comment
@@ -120,6 +121,7 @@ get '/day/:number/edit' do
     day = params['number']
     @day = Day.get(day)
     @body = Kramdown::Document.new(@day.body).to_html
+    @file_arr = (Dir.entries("./public/images").sort) - ['.', '..', '.DS_Store']
 
     erb :edit
   else
@@ -132,10 +134,27 @@ post '/day/:number/update' do
   day.title = params[:title]
   day.body = params[:body]
   day.image_url = params[:image_url]
-  day.user = @current_user
+  if @current_user.username != EDITOR
+    day.user = @current_user
+  end
   day.save
   redirect "/day/#{day.id}/show"
 end
+
+
+post '/image/:size/upload' do
+  size = params['size']
+  base64 = params['base64']
+  img_name = params['imgName']
+  # save the array of image data to files
+    File.open("public/images/#{size}/#{imgName}", 'wb') do |f|
+      f.write(Base64.decode64(base64))
+      f.close()
+
+    end
+  "success"
+end
+
 
 post '/comment/:num/create' do
   if logged_in?
@@ -157,6 +176,7 @@ post '/comment/:id/destroy' do
     "You have to be an admin to delete comments"
   end
 end
+
 get '/login' do
   # generate a new oauth object with your app data and your callback url
   session['oauth'] = Koala::Facebook::OAuth.new(APP_ID, APP_SECRET, "#{request.base_url}/callback")

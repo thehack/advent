@@ -1,3 +1,48 @@
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('select').change( function() {
+			var str = "";
+    		$( "select option:selected" ).each(function() {
+      			str += $( this ).text() + "";
+      			$( "#placeholder" ).html("<img src='/images/" + str + "'>" );
+      			console.log(str);
+    		});
+    		
+  		}).trigger( "change" );
+
+		var getAndResize = function(url, size) {
+			var image = new Image();
+			image.src = url;
+			image.onload = function() {
+				console.log('loaded image from url')
+				var height = image.height;
+				var width = image.width;
+				var ratio = height/width
+		    	var canvas = document.createElement('canvas');
+		    	canvas.width = image.width
+		    	canvas.height = image.height
+		    	var context = canvas.getContext('2d');
+		    	context.drawImage(image, 0, 0, size, size*ratio);
+		    	base64 = canvas.toDataURL("image/jpeg", 0.8).replace(/^data:image\/(png|jpg);base64,/, "");
+
+		    	// vanilla ajax sending data to server
+				var ajax = new XMLHttpRequest(); 
+				ajax.open("POST", "/image/" + size + "/upload", true);
+				ajax.onreadystatechange = function () {
+					if (ajax.readyState != 4 || ajax.status != 200) return; 
+					console.log(ajax.responseText);
+				};
+				ajax.send("base64" + "=" + base64 + "&imgName=" + <%= @day.id.to_i.to_english %> + size + ".jpg" );
+		    }
+		};
+
+
+
+	});
+
+
+</script>
+
 <style>
 	.preview div, .preview h3 {
 		margin-right:20px;
@@ -17,7 +62,13 @@
 		<form class="pure-form pure-g-r" action="/day/<%= @day.id%>/update" method="post">
 
 			<input name="title" class="pure-input-1" type="text" value="<%= @day.title%>">
-			<input name="image_url" class="pure-input-1" type="text" placeholder="Enter your image url"<% if @day.image_url %>value="<%= @day.image_url%> "<% end%>>
+
+			<select id="image_url" class="pure-input-1" name="image_url">
+				<% for file in @file_arr %>
+ 				<option value="<%= file %>"><%= file %>
+ 				</option>
+ 				<% end %>
+			</select>
 		<br>
 
 		<textarea name="body" class="pure-input-1" id='bodyText'><%= @day.body %>
@@ -29,6 +80,7 @@
 	</div>
 	<div class='pure-u-1-2 preview'>
 		<div class="redBorder">
+		<div id="placeholder"></div>
 		<h3><%= @day.title %></h3>
 		<div><%= @body %></div>	
 		</div>

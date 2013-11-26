@@ -1,7 +1,7 @@
 <style type="text/css">
 <%for day in @days %>
 	.<%= day.id.to_i.to_english %> {
-		background-image: url('<%= day.image_url%>');
+		background-image: url('/images/<%= day.image_url%>');
 		background-size:cover;
 		background-position: center center;
 	}

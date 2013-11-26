@@ -6,7 +6,7 @@
 		font-family: 'CodeProDemoRegular';
 
 	}
-
+	
 	a{color:#1c1c1c;}
 	a:visited {color:#606060;}
 
@@ -83,4 +83,14 @@
 	 .circle div  {
 		margin-top: 10px;
 		font-family: 'crashnumberingserifregular', Arial;
+	}
+	.footer {
+		background-color: #8c8c8c;
+		min-height:50px;
+	}
+	img.commentIcon {
+		margin-top: 17px;
+	}
+	.commentInput {
+		margin-top: -15px;
 	}
