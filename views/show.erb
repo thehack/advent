@@ -34,7 +34,7 @@
 		<p class="subhead"><%= @day.publish_on.strftime("%A, #{@day.publish_on.day.to_s.ordinalize} %B")%><%if admin?%>&nbsp;&nbsp;
 			<span class="color:red;"><a href="/day/<%= @day.id %>/edit">Edit this Post</a></span>
 		<%end%>
-			<a class="pure-button pure-button-small shareonfb" style="color: #eee;text-indent: 0px;padding-left: 35px;width: 130px;padding-top: 10px;height: 24px;" onclick="window.open (this.href, 'child', 'height=400,width=665,scrollbars'); return false" href="https://www.facebook.com/sharer/sharer.php?u=href=/day/<%= @day.id %>/edit" target="_blank">Share on Facebook</a>
+			<a class="pure-button pure-button-small shareonfb" style="color: #eee;text-indent: 0px;padding-left: 35px;width: 130px;padding-top: 10px;height: 24px;" onclick="window.open (this.href, 'child', 'height=400,width=665,scrollbars'); return false" href="https://www.facebook.com/sharer/sharer.php?u=href=http://advent.cornerstonecity.eu/day/<%= @day.id %>/show" target="_blank">Share on Facebook</a>
 		</p>
 
 		<%= @body %>
