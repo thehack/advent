@@ -48,7 +48,9 @@
 		margin-top: 10px;
 		margin-right: 10px;
 	}
-
+	.red {
+		color:red;
+	}
 	.heading {
 		color: #f2f2f2;
 
@@ -91,7 +93,8 @@
 		min-height:50px;
 	}
 	img.commentIcon {
-		margin-top: 17px;
+		margin-bottom: -10px;
+		margin-right: 10px;
 	}
 	.commentInput {
 		margin-top: -15px;
@@ -102,4 +105,10 @@
 	}
 	.tweet {
 		color: #24b1d8;
+	}
+	.commentMeta{
+		margin-top: -14px;
+		color: #99aa9e;
+		font-family: 'CodeProLightDemoRegular';
+
 	}

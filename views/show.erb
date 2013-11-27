@@ -1,8 +1,12 @@
 <script type="text/javascript">
 
-	var destroy = function(x) {
-		$.post('/comment/' + x +'/destroy');
+	var destroy = function(x, el) {
+		$.post('/comment/' + x +'/destroy', function(){ 
+			$(el).parent().prev().remove();
+			$(el).parent().remove();
+		});
 	};
+
 </script>
 <div id="fb-root"></div>
 
@@ -31,30 +35,31 @@
 	</div>
 	<div class='pure-u-3-5 main' >
 		<h1><img src="http://graph.facebook.com/<%= @day.user.id %>/picture" class="tooltip" title="author: <%= @day.user.name %>"  alt=""> <%= @day.title %></h1>
-		<p class="subhead"><%= @day.publish_on.strftime("%A, #{@day.publish_on.day.to_s.ordinalize} %B")%><%if admin?%>&nbsp;&nbsp;
-			<span class="color:red;"><a href="/day/<%= @day.id %>/edit">Edit this Post</a></span>
+		<p class="subhead"><%= @day.publish_on.strftime("%A, #{@day.publish_on.day.to_s.ordinalize} %B")%>&nbsp;&nbsp;&nbsp;
+		<%if admin?%>
+			<a class="red" href="/day/<%= @day.id %>/edit"><i class="fa fa-edit fa-l"></i>&nbsp;Edit this Post</a>&nbsp;&nbsp;&nbsp;
 		<%end%>
-		&nbsp;&nbsp;&nbsp;
 			<a class="share" onclick="window.open (this.href, 'child', 'height=400,width=665,scrollbars'); return false" href="https://www.facebook.com/sharer/sharer.php?u=href=http://advent.cornerstonecity.eu/day/<%= @day.id %>/show" target="_blank"><i class="fa fa-facebook-square fa-l"></i>&nbsp;Share</a>&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/share?url=http%3A%2F%2Fadvent.cornerstonecity.eu%2Fday%2F<%= @day.id %>%2Fshow" target="_blank" class="tweet"><i class="fa fa-twitter-square fa-l"></i>&nbsp;Tweet</a>
 		</p>
 
 		<%= @body %>
 		<h1>Comment</h1>
 		<% for comment in @comments %>
-		<p><img src="http://graph.facebook.com/<%= comment.user.id %>/picture">&nbsp;&nbsp;<%= comment.body %></p>
-		<p>Posted by <%= comment.user.name %>, on <%= comment.created_on.strftime("%d %B, %Y") %>
+
+		<p><img src="http://graph.facebook.com/<%= comment.user.id %>/picture">&nbsp;&nbsp;<%= escape_html(comment.body) %></p>
+		<p class="commentMeta">Posted by <%= comment.user.name %>, on <%= comment.created_on.strftime("%d %B, %Y") %>
 		<% if admin? %>
-			<a id="destroy" style="color:red;" href="#" onclick="javascript:destroy(<%= comment.id %>);">DELETE?</a>
+			<a class="destroy" style="color:red;" href="#" onclick="javascript:destroy(<%= comment.id %>, this);">DELETE?</a>
 		<% end %>
 		</p>
 		<% end %>
+
 		<br>
-		<form class="pure-form" action="/comment/<%= @day.id %>/create" method="post">
+		<form id="createComment" class="pure-form" action="/comment/<%= @day.id %>/create" method="post">
 			<fieldset>
 	    		<legend>Add Your Voice to the Chorus!</legend>
-	    		<% if logged_in? %><img class="commentIcon" src="http://graph.facebook.com/<%= @current_user.id %>/picture">&nbsp;&nbsp;<% end %>
-				<input type="text" class='pure-input-1-2 commentInput' name="body" placeholder="Your comment here.">
-	    		<button type="submit" class="pure-button pure-button-primary">Submit</button>
+	    		<% if logged_in? %><img class="commentIcon" src="http://graph.facebook.com/<%= @current_user.id %>/picture"><% end %><input type="text" class='pure-input-1-2 commentInput' name="body" placeholder="Your comment here.">
+	    		<button type="submit" class="pure-button pure-button-primary green">Submit</button>
 			</fieldset>
 		</form>
 	</div>

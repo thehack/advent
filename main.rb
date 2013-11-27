@@ -6,7 +6,7 @@ require './secrets'
 require 'fileutils'
 require 'base64'
 DataMapper.setup(:default, "sqlite3://#{Dir.pwd}/db/development.sqlite3")
-DataMapper::Model.raise_on_save_failure = true
+# DataMapper::Model.raise_on_save_failure = true
 class User
   include DataMapper::Resource
   property :id, Integer, :key => true
@@ -22,7 +22,7 @@ end
 class Comment
   include DataMapper::Resource
   property :id, Serial
-  property :body, String
+  property :body, Text
   property :created_on, DateTime
   property :updated_at, DateTime
   belongs_to :user
@@ -73,6 +73,7 @@ before do
 
 
   #helpers
+
   def logged_in?
     if session['access_token']
       return true
@@ -160,7 +161,7 @@ post '/comment/:num/create' do
   if logged_in?
     day = Day.get(params['num'])
     comment = day.comments.create(:user => @current_user, :body => params[:body])
-    redirect '/'
+    redirect '/day/' + day.id.to_s + '/show#createComment'
   else
     "you have to log in to leave comments"
   end
@@ -169,9 +170,8 @@ end
 post '/comment/:id/destroy' do
   if admin?
     comment = Comment.get(params[:id])
-    page = comment.page
     comment.destroy
-    redirect '/day/' + page.id + '/show'
+
   else
     "You have to be an admin to delete comments"
   end
