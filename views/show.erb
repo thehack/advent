@@ -35,7 +35,7 @@
 			<span class="color:red;"><a href="/day/<%= @day.id %>/edit">Edit this Post</a></span>
 		<%end%>
 		&nbsp;&nbsp;&nbsp;
-			<a class="share" onclick="window.open (this.href, 'child', 'height=400,width=665,scrollbars'); return false" href="https://www.facebook.com/sharer/sharer.php?u=href=http://advent.cornerstonecity.eu/day/<%= @day.id %>/show" target="_blank">Share&nbsp;<i class="fa fa-facebook-square fa-l"></i></a>
+			<a class="share" onclick="window.open (this.href, 'child', 'height=400,width=665,scrollbars'); return false" href="https://www.facebook.com/sharer/sharer.php?u=href=http://advent.cornerstonecity.eu/day/<%= @day.id %>/show" target="_blank"><i class="fa fa-facebook-square fa-l"></i>&nbsp;Share</a>&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/share?url=http%3A%2F%2Fadvent.cornerstonecity.eu%2Fday%2F<%= @day.id %>%2Fshow" target="_blank" class="tweet"><i class="fa fa-twitter-square fa-l"></i>&nbsp;Tweet</a>
 		</p>
 
 		<%= @body %>

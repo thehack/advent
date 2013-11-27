@@ -2,14 +2,16 @@
 		background-image: url('/images/path3253.png');
 	}
 	a {text-decoration: none;}
+
+
+	
+	a{color:#1c1c1c;}
+	a:visited {color:#606060;}
+	a:hover {color: rgb(30, 30, 30);}
 	h1 {
 		font-family: 'CodeProDemoRegular';
 
 	}
-	
-	a{color:#1c1c1c;}
-	a:visited {color:#606060;}
-
 	#bodyText {
 		min-height: 568px;
 	}
@@ -97,4 +99,7 @@
 
 	.share {
 		color: rgb(54, 81, 139);
+	}
+	.tweet {
+		color: #24b1d8;
 	}
