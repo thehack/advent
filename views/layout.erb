@@ -56,15 +56,26 @@
 	        	};
         	};
 
+        	// keepeing thins in their places
+        	var commentFormFix = function() {
+        		if($( window ).width() < 462) {
+        			$('img.commentIcon').css('marginBottom', '20px');
+        			console.log('adjusting');
+        		}
+        	};
+
         	// calling my functions
             $('.tooltip').tooltipster();
             alignCircles();
          	alignLink();
+         	commentFormFix();
+
 
          	//keeping things right on resize
 	        $(window).resize(function() {
 	        	alignCircles();
 	        	alignLink();
+	        	commentFormFix();
         	});
         });
 

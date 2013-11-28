@@ -49,7 +49,7 @@
 		<p><img src="http://graph.facebook.com/<%= comment.user.id %>/picture">&nbsp;&nbsp;<%= escape_html(comment.body) %></p>
 		<p class="commentMeta">Posted by <%= comment.user.name %>, on <%= comment.created_on.strftime("%d %B, %Y") %>
 		<% if admin? %>
-			<a class="destroy" style="color:red;" href="#" onclick="javascript:destroy(<%= comment.id %>, this);">DELETE?</a>
+			<a class="destroy" style="color:red;" href="#createComment" onclick="javascript:destroy(<%= comment.id %>, this);">DELETE?</a>
 		<% end %>
 		</p>
 		<% end %>
@@ -59,9 +59,11 @@
 			<fieldset>
 	    		<legend>Add Your Voice to the Chorus!</legend>
 	    		<% if logged_in? %><img class="commentIcon" src="http://graph.facebook.com/<%= @current_user.id %>/picture"><% end %><input type="text" class='pure-input-1-2 commentInput' name="body" placeholder="Your comment here.">
+	    		</fieldset>
 	    		<button type="submit" class="pure-button pure-button-primary green">Submit</button>
-			</fieldset>
+			
 		</form>
+		<br>
 	</div>
 	<div class='pure-u-1-5'>
 	</div>
