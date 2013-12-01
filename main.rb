@@ -163,7 +163,7 @@ post '/comment/:num/create' do
     comment = day.comments.create(:user => @current_user, :body => params[:body])
     redirect '/day/' + day.id.to_s + '/show#createComment'
   else
-    "you have to <a href='http://cornerstonecity.eu/login'>log in</a> to leave comments"
+    "you have to <a href='http://advent.cornerstonecity.eu/login'>log in</a> to leave comments"
   end
 end
 
