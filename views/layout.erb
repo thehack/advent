@@ -6,8 +6,10 @@
 	<meta property="og:url" content="http://www.advent.cornerstonecity.eu" />
 	<!-- Stuff to make it look native on mobile --> 
 	<meta name="viewport" content="user-scalable=0, initial-scale=1.0">
-	<meta name=”apple-mobile-web-app-capable” content=”yes” />
-	<meta name=”apple-mobile-web-app-status-bar-style” content=”black” />
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="apple-touch-icon-precomposed" href="../images/icon.png" />
+	<meta name="apple-mobile-web-app-status-bar-style” content=”black" />
 
 	<!-- apple icons and splash screens
 	<link rel=”apple-touch-icon” sizes=”57×57″ href=”/images/icons/calzone-57×57.png” />
@@ -21,8 +23,9 @@
 
 	
 	<script src="/javascript/jquery.js" type="text/javascript"></script>
+	<script type="text/javascript" src="/javascript/bookmark_bubble.js"></script>
+	<script type="text/javascript" src="example.js"></script>
 	<script type="text/javascript" src="/javascript/tooltipster.js"></script>	
-	<script type="text/javascript" src="/javascript/bookmarklet.js"> </script>
 	<link rel="stylesheet" href="/css/pure.css">
 	<link rel="stylesheet" href="/css/layout.css">
 	<link rel="stylesheet" type="text/css" href="/css/fonts.css">
@@ -31,6 +34,8 @@
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
 	<script type="text/javascript">
+		page_popup_bubble = "#index";
+
         $(document).ready(function() {
 
         	// fixes an ugly issue where image drops down on small devices
