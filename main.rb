@@ -104,7 +104,7 @@ end
   end
 
 end
-
+set :static_cache_control, [:public, :max_age => 2678400]
 get '/' do
   @days = Day.all
   erb :index
