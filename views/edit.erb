@@ -1,14 +1,19 @@
 <script type="text/javascript">
 	$(document).ready(function() {
-		$('select').change( function() {
+
+
+		var updatePreviewImage = function() {
 			var str = "";
-    		$( "select option:selected" ).each(function() {
-      			str += $( this ).text() + "";
-      			$( "#placeholder" ).html("<img src='/images/" + str + "'>" );
-      			console.log(str);
-    		});
-    		
-  		})
+	    		$( "select option:selected" ).each(function() {
+	      			str += $( this ).text() + "";
+	      			$( "#placeholder" ).html("<img src='/images/" + str + "'>" );
+	      			console.log(str);
+	    		});
+		};
+	//	updatePreviewImage();
+
+		$('select').change( updatePreviewImage() );
+
 
 		var getAndResize = function(url, size) {
 			var image = new Image();
@@ -37,6 +42,8 @@
 		};
 
 
+		// select correct image by default
+		$('select').val("<%= @day.image_url %>");
 
 	});
 
