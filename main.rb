@@ -163,7 +163,7 @@ post '/comment/:num/create' do
   if logged_in?
     day = Day.get(params['num'])
     comment = day.comments.create(:user => @current_user, :body => params[:body])
-    redirect '/day/' + day.id.to_s + '/show#createComment'
+ #   redirect '/day/' + day.id.to_s + '/show#createComment'
 
      Pony.mail({
         :to => day.user.email,
