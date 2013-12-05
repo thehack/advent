@@ -163,7 +163,7 @@ post '/comment/:num/create' do
   if logged_in?
     day = Day.get(params['num'])
     comment = day.comments.create(:user => @current_user, :body => params[:body])
- #   redirect '/day/' + day.id.to_s + '/show#createComment'
+    redirect '/day/' + day.id.to_s + '/show#createComment'
 
      Pony.mail({
         :to => day.user.email,
@@ -180,7 +180,6 @@ post '/comment/:num/create' do
          :domain               => DOMAIN # the HELO domain provided by the client to the server
         }
       })
-    redirect '/day/' + day.id.to_s + '/show#createComment'
 
   else
     "you have to <a href='http://advent.cornerstonecity.eu/login'>log in</a> to leave comments"
