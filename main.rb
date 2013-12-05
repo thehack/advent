@@ -180,6 +180,7 @@ post '/comment/:num/create' do
          :domain               => DOMAIN # the HELO domain provided by the client to the server
         }
       })
+    redirect '/day/' + day.id.to_s + '/show#createComment'
 
   else
     "you have to <a href='http://advent.cornerstonecity.eu/login'>log in</a> to leave comments"
