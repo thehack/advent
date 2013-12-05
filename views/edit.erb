@@ -1,18 +1,15 @@
 <script type="text/javascript">
 	$(document).ready(function() {
 
-
-		var updatePreviewImage = function() {
-			var str = "";
+		$('select').change( function() {
+						var str = "";
 	    		$( "select option:selected" ).each(function() {
 	      			str += $( this ).text() + "";
 	      			$( "#placeholder" ).html("<img src='/images/" + str + "'>" );
 	      			console.log(str);
 	    		});
-		};
-		updatePreviewImage();
 
-		$('select').change( updatePreviewImage() );
+		});
 
 
 		var getAndResize = function(url, size) {
