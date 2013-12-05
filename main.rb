@@ -5,6 +5,8 @@ require 'data_mapper'
 require './secrets'
 require 'fileutils'
 require 'base64'
+require 'pony'
+
 DataMapper.setup(:default, "sqlite3://#{Dir.pwd}/db/development.sqlite3")
 # DataMapper::Model.raise_on_save_failure = true
 class User
@@ -162,6 +164,23 @@ post '/comment/:num/create' do
     day = Day.get(params['num'])
     comment = day.comments.create(:user => @current_user, :body => params[:body])
     redirect '/day/' + day.id.to_s + '/show#createComment'
+
+     Pony.mail({
+        :to => day.user.email,
+        :subject => comment.user.name + " has left a comment on your post!", 
+        :body => "#{comment.user.name} wrote: \n #{comment.body} \n You can go to your post http://advent.cornerstonecity.eu/day/#{comment.day.id}/show to reply or delete the comment if necessary.",
+        :via => :smtp,
+        :via_options => {
+          :address              => ADDRESS,
+          :port                 => PORT,
+          :enable_starttls_auto => true,
+          :user_name            => USER_NAME,
+          :password             => PASSWORD,
+         :authentication       =>  :plain, # no auth by default
+         :domain               => DOMAIN # the HELO domain provided by the client to the server
+        }
+      })
+
   else
     "you have to <a href='http://advent.cornerstonecity.eu/login'>log in</a> to leave comments"
   end
