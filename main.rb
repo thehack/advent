@@ -46,7 +46,7 @@ end
 
 DataMapper.auto_upgrade!
 
-APP_ID     = 524306497656258
+APP_ID = 524306497656258
 
 # your app secret
 
@@ -72,10 +72,7 @@ before do
     end
   end
 
-
-
   #helpers
-
   def logged_in?
     if session['access_token']
       return true
@@ -84,18 +81,18 @@ before do
     end
   end
 
-def admin?
-  if logged_in?
-    admins = ADMINS
-    if admins.include? @current_user['username']
-      return true
+  def admin?
+    if logged_in?
+      admins = ADMINS
+      if admins.include? @current_user['username']
+        return true
+      else
+        return false
+      end
     else
       return false
     end
-  else
-    return false
   end
-end
 
   def img_tag_for_user(id)
     return "<img src='http://graph.facebook.com/" + id.to_s + "/picture'>"
@@ -216,7 +213,6 @@ get '/callback' do
   graph = Koala::Facebook::API.new(session['access_token'])
   profile = graph.get_object("me")
   session['uid'] = profile['id']
-  puts "wrote uid to cookie"
 
   # if user is not in the database, create the user
   if User.get(profile['id'].to_i) == nil
@@ -226,8 +222,7 @@ get '/callback' do
                         :name       => profile['name'],
                         :email      => profile['email'],
                         :created_on => Time.now,
-                        :updated_at => Time.now
-                        )
+                        :updated_at => Time.now)
   end
   redirect '/'
 end
