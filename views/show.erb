@@ -16,6 +16,8 @@
 		});
 	};
 	$(document).ready(function() {
+		var loader = new Image();
+		loader.src = '/images/ajax-loader.gif';
 		$('button').click(function() {$(this).html("<img src='/images/ajax-loader.gif'>")});
 	});
 </script>
