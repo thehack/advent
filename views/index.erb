@@ -1,3 +1,8 @@
+<script type="text/javascript">
+	$('document').ready(function() {
+		$('head').append("<meta property='og:title' content='Advent' /><meta property='og:url' content='http://www.advent.cornerstonecity.eu' />")
+	});
+</script>
 <style type="text/css">
 <%for day in @days %>
 	.<%= day.id.to_i.to_english %> {
