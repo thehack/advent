@@ -1,11 +1,6 @@
-<head>
-	<meta property="og:title" content="<%= @day.title %>" />
-	<meta property="og:url" content="http://www.advent.cornerstonecity.eu/day<%= @day.id %>/show" />
-	<meta property="og:image" content="http://www.advent.cornerstonecity.eu/images/<%= @day.image_url%>" />
-	<meta property="og:type" content="website" />
-	<meta property="og:site_name" content="advent">
-	<meta property="og:description" content="An Advent-themed daily devotional for the month of December">
-</head>
+
+	
+
 
 <script type="text/javascript">
 
@@ -19,6 +14,12 @@
 		var loader = new Image();
 		loader.src = '/images/ajax-loader.gif';
 		$('button').click(function() {$(this).html("<img src='/images/ajax-loader.gif'>")});
+
+
+		// insert into head for fb
+		$('head').append("<meta property='og:title' content='<%= @day.title %>' />");
+		$('head').append("<meta property='og:image' content='http://www.advent.cornerstonecity.eu/images/<%= @day.image_url%>' />");
+		$('head').append("<meta property='og:url' content='http://www.advent.cornerstonecity.eu/day<%= @day.id %>/show' /><meta property='og:type' content='website' /><meta property='og:site_name' content='advent'><meta property='og:description' content='An Advent-themed daily devotional for the month of December' />");
 	});
 </script>
 <div id="fb-root"></div>
@@ -80,4 +81,3 @@
 	<div class='pure-u-1-5'>
 	</div>
 </div>
-
